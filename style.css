@@ -1,0 +1,221 @@
+
+      body {
+        margin: 0;
+      }
+      blockquote {
+        width: 50%;
+        width: 50%;
+        height: 50%;
+        border-color: black;
+      }
+      .carousel-inner > .carousel-item > img {
+        width: 100%;
+        object-fit: cover;
+      }
+      .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      .navbar {
+        margin-bottom: 0;
+        z-index: 1000;
+        background-color: rgba(
+          249,
+          246,
+          246,
+          0.3
+        ); /* Semi-transparent background */
+        border: none;
+        height: 10vh;
+        position: fixed; /* Position navbar absolutely */
+        width: 100%; /* Occupy full width */
+      }
+
+      .navbar-inverse .navbar-nav > li > a {
+        color: black; /* White text color */
+        font-size: x-large;
+      }
+      .navbar-inverse .navbar-nav .nav-item.active .nav-link {
+        color: rgb(50, 167, 67); /* Change the active link color here */
+        background-color: rgba(181, 27, 27, 0.3);
+      }
+
+      .navbar-inverse .navbar-brand {
+        color: rgb(239, 251, 7);
+        font-size: xx-large;
+        font-weight: 1000; /* White text color for brand */
+      }
+
+      .carousel-control-prev,
+      .carousel-control-next {
+        top: 50%; /* Adjust controls position */
+      }
+      .sec1 {
+        padding: 100px;
+      }
+
+      #section2 {
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+      }
+      .row1 {
+        display: flex;
+        flex-direction: row;
+      }
+      .testimonials {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      #carousel1 {
+        height: 500px;
+        width: 50%;
+        overflow: hidden;
+      }
+
+      #carousel1 > .carousel-inner {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+      }
+      #carousel1 .carousel-item > img {
+        height: 500px;
+        width: 100%;
+        max-height: 500px;
+        object-fit: cover;
+        overflow: hidden;
+      }
+
+      #carousel .carousel-item > img {
+        object-fit: cover;
+        height: 100vh;
+      }
+
+      #carousel2 .carousel-item {
+        width: 200px;
+      }
+      .carousel-inner {
+        width: 100vw;
+        overflow: visible;
+      }
+
+      .carousel {
+        overflow: visible;
+      }
+
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        background-color: rgba(
+          0,
+          0,
+          0,
+          0.5
+        ); /* Semi-transparent background for controls */
+      }
+      h3 {
+        color: white;
+      }
+      .my-carousel-container {
+        background-color: rgba(182, 205, 30, 0.486);
+        overflow: hidden;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .my-carousel-inner {
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        transition: 1s ease-in-out;
+      }
+      .my-carousel-item {
+        padding: 10px;
+      }
+      #my-carousel {
+        height: 100vh;
+      }
+
+      .my-carousel-button-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      .my-carousel-button {
+        color: white;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-weight: 800;
+        font-size: 24px;
+        padding: 20px;
+      }
+      #section3 {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("wal.jpg");
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover;
+      }
+      .quotation {
+        width: 60%;
+        line-height: 2rem;
+        font-size: xx-large;
+        font-weight: 500;
+        letter-spacing: 3px;
+      }
+      .para {
+        background-color: rgba(255, 255, 255, 0.6);
+        color: rgba(0, 0, 0, 0.759);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .testi {
+        color: black;
+      }
+      @media screen and (max-width: 768px) {
+        .row1 {
+          display: flex;
+          flex-direction: column;
+        }
+        #carousel1 {
+          display: flex;
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+        }
+        #carousel1 .carousel-item {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .testimonials {
+          width: 100%;
+        }
+        #section2 {
+          height: auto;
+        }
+
+        .sec1 {
+          padding: 20px;
+        }
+      }
+    
